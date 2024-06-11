@@ -1,0 +1,49 @@
+orientation: normal
+rows: 3
+columns: 5
+knobs: 3
+layers:
+  - buttons:
+      - ["cmd-grave", "numpad9", "numpad6", "numpad3", "shift"]
+      - ["cmd-tab",  "numpad8",  "numpad5",   "numpad2", "numpadenter"]
+      - ["shift", "numpad7", "numpad4", "numpad1", "numpad0"]
+    knobs:
+      - ccw: "pageup"
+        press: "cmd-tab"
+        cw: "pagedown"
+      - ccw: "left"
+        press: "cmd-grave"
+        cw: "right"
+      - ccw: "up"
+        press: "escape"
+        cw: "down"
+
+  - buttons:
+      - [ "cmd-tab", "v", "x", "2", "backspace" ]
+      - [ "cmd-grave", "g", "a", "3", "numpadenter" ]
+      - [ "shift", "h", "z", "4", "shift" ]
+    knobs:
+      - ccw: "up"
+        press: "s"
+        cw: "down"
+      - ccw: "pageup"
+        press: "s"
+        cw: "pagedown"
+      - ccw: "8"
+        press: "s"
+        cw: "9"
+
+  - buttons:
+      - [ "cmd-tab", "v", "x", "2", "backspace" ]
+      - [ "cmd-grave", "g", "a", "3", "numpadenter" ]
+      - [ "shift", "h", "z", "4", "shift" ]
+    knobs:
+      - ccw: "up"
+        press: "s"
+        cw: "down"
+      - ccw: "pageup"
+        press: "s"
+        cw: "pagedown"
+      - ccw: "8"
+        press: "s"
+        cw: "9"
